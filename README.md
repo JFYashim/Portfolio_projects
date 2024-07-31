@@ -4,11 +4,12 @@
 
 ## A collection of sql data projects showcasing my skills in data analysis like the following:
 
-- Data Querying, Cleaning and Manipulation.
+- Data Querying, Cleaning and Manipulation (Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types).
 - Data exploration and storytelling.
 - Data modeling and analysis
 - Database management
 - Data visualization using Tableau tool
+
 
 # Projects
 
