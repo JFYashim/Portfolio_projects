@@ -35,4 +35,4 @@ As a data analyst and visualization enthusiast, I aim to effectively communicate
 
 *Contact*
 
-Feel free to reach out to me through my email jonathan_felix_yashim@yahoo.com or connect with me on [Your LinkedIn Profile].
+Feel free to reach out to me through my email jonathan_felix_yashim@yahoo.com or connect with me on my LinkedIn www.linkedin.com/in/jonathan-felix-yashim-565a0124b
