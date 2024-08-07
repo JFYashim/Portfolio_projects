@@ -15,10 +15,9 @@
 
 # Projects
 
-1. *COVID-19 Case Study*: An interactive dashboard visualizing COVID-19 cases and vaccination rates worldwide.
-    - Tools: Tableau, Python, Pandas
-    - Data Source: WHO, CDC
-2. *E-commerce Sales Analysis*: A comprehensive analysis of e-commerce sales trends and customer behavior.
+1. *Analyzing Customer Purchase Behavior.
+    - Tools: Tableau, Python, SQL
+2. *Analyzing Twitter Sentiment for a Brand.
     - Tools: Power BI, Excel, SQL
     - Data Source: Sample e-commerce dataset
 3. *Climate Change Visualization*: An interactive visualization of climate change indicators and trends.
