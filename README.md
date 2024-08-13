@@ -16,7 +16,6 @@
 ## Project 1 *Analyzing Customer Purchase Behavior.
 #### Tool: Jupyter Note
 #### Language: Python
-     *Python Tasks:*
 
 1. Data Cleaning:
     - I Use Pandas to remove missing or duplicate values.
@@ -33,7 +32,6 @@
 ## Project 2 *Analyzing Customer Purchase Behavior.
 #### Tool: MySQL
 #### Language: SQL
-     *SQL Tasks:*
 
 ## *About Me*
 
