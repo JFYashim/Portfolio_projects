@@ -5,8 +5,8 @@
 ### A collection of data analysis projects and visualization showcasing my skills in data analysis like the following:
 
 - Data Querying, Cleaning and Manipulation using Python or SQL
-- Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types.
-- Profecient with Librearies like Pandas, Numpy for data extraction, data manipulation, cleaning, Data exploration and Storage
+- Skills used: Kmeans clustering algorithms,data manipulation, Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types.
+- Profecient with Librearies like Pandas,scikit-learn, matplotlib, seaborn, Numpy for data extraction, data manipulation,visualization, cleaning, Data exploration and Storage
 - Storytelling.
 - Data modeling and analysis
 - Database management
