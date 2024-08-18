@@ -27,9 +27,10 @@ This is a repository to showcase skills, share projects and track my progress in
   
 
 
-- [Education](https://github.com/blob/main/README.md#education)  
-- [Certificates](https://github.com/blob/main/README.md#certificates)
-- [Contact](https://github.com/blob/main/README.md#contacts)
+- [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
+- [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
+- [Contact](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#contacts)
+  
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
