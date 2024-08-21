@@ -12,7 +12,7 @@ This is a repository to showcase skills, share projects and track my progress in
 
 ## Table of Contents
 - [About](https://github.com//blob/main/README.md#about)
-- [Professional Skills]()
+- [Professional Skills](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#professional-skills)
 - [Portfolio Projects](https://github.com)
   - Python
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
@@ -90,23 +90,10 @@ In this section I will list data analytics projects briefly describing the techn
 **Technology:** MySQL
 
 
-
-### Legendary Pokémon Analysis
-
-**Goal:** To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
-
-**Code:** [`Legendary Pokémon Analysis (Study Project)`](https://github.com)
-
-**Description:** The dataset contains a list of  Pokémon.  The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon.
-
-**Skills:** data cleaning, data analysis, data visualization.
-
-**Technology:** R Studio 
-
-
 ## Education
-Bachelor's degree, Agricultural Science,
-2005 - 2010
+- Bachelor of Agriculture
+  Ahmadu Bello University (2005-2010)
+- Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
 
 ## Certificates
 The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have (in reverse-chronological order, with the date of completion in brackets):
@@ -117,9 +104,6 @@ The best way to showcase skills is by doing and sharing your job done but someti
 ## Contacts
 - LinkedIn: [Jonathan Felix Yashim](https://www.linkedin.com/in/jonathan-felix-yashim-565a0124b/)
 - Email: jonathan_felix_yashim@yahoo.com
-- 
-_Education:_
+- Kaggle: [Jonathan Felix Yashim](http://www.kaggle.com/dacrow)
+- X : [Joanathan Felix Yashim](https://x.com/yashim_jonathan)
 
-- Bachelor of Agriculture
- Ahmadu Bello University (2005-2010)
-- Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
