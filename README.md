@@ -1,17 +1,18 @@
 # Jonathan Felix Yashim - Data Analyst Portfolio
 ## About Me
-Hi, I'm Jonathan! as an enthusiastic analyst that loves bringing out the secrets in hidden data with analytical background in Agricultural science. I have developed a strong foundation in the life sciences and a passion for using data to uncover meaningful insights. I am excited to bring my technical and analytical skills to the field of data science as an entry-level data analyst. 
+Hi, I'm Jonathan! As a detail-oriented and analytical Agriculture Science graduate, I've developed a strong foundation in data collection, analysis, and interpretation. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, and data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
 
-During my studies, I honed my ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst.
+During my studies, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
 
 In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
 
-My CV in [pd_file](https://github.com).
+My Resume in [pd_file](https://github.com).
 
 This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
 ## Table of Contents
 - [About](https://github.com//blob/main/README.md#about)
+- [Professional Skills]()
 - [Portfolio Projects](https://github.com)
   - Python
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
@@ -23,14 +24,19 @@ This is a repository to showcase skills, share projects and track my progress in
     - [Legendary Pokémon Analysis (Study Project)](https://github.com)
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
-  - Power BI
   
-
 
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
 - [Contact](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#contacts)
   
+## Professional Skills
+- Data analysis and interpretation
+- Statistical software (R, Python)
+- Data visualization (Tableau)
+- SQL and database management
+- Strong research and problem-solving skills
+
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
@@ -111,3 +117,9 @@ The best way to showcase skills is by doing and sharing your job done but someti
 ## Contacts
 - LinkedIn: [Jonathan Felix Yashim](https://www.linkedin.com/in/jonathan-felix-yashim-565a0124b/)
 - Email: jonathan_felix_yashim@yahoo.com
+- 
+_Education:_
+
+- Bachelor of Agriculture
+ Ahmadu Bello University (2005-2010)
+- Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
