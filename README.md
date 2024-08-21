@@ -60,7 +60,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 ## Education
 - Bachelor of Agriculture
-  *Ahmadu Bello University
+  (Ahmadu Bello University)
 - Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
 
 ## Certificates
