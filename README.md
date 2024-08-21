@@ -20,12 +20,7 @@ This is a repository to showcase skills, share projects and track my progress in
   - SQL
     - [Covid 19 Data Exploration](https://github.com)
     - [Nashville Housing Data Cleaning](https://github.com/)
-  - R
-    - [Legendary Pokémon Analysis (Study Project)](https://github.com)
-  - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
-  
-
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
 - [Contact](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#contacts)
@@ -53,33 +48,6 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
 
-### Tech Store Sales Analysis
-
-**Goal:** To examine the sales history of the store and extract insights on its performance, as well as to identify potential improvements that can be implemented.
-
-**Code:** [`Tech Store Sales Analysis.ipynb`](https://github.com)
-
-**Description:** The dataset contains a list of sales records.  The records include the products for sale and order information(order id, order date, price, quantity ordered and purchase address). The project includes the following steps: data loading, data cleaning and preprocessing, EDA (exploratory data analysis), analyzing sales data and hypothesis testing.
-
-**Skills:** data cleaning, data analysis, hypothesis testing, data visualization.
-
-**Technology:** Python, Pandas, Matplotlib.
-
-**Results:** Python functions that calculated and visually presented the sales data by month, city, and the most commonly sold items. Additionally, the reasons for the high frequency of these items being sold were analyzed and provided as insights.
-
-
-
-### Nashville Housing Data Cleaning
-**Code:** [`Data Cleaning Project Queries: Nashville Housing.sql`](https://github.com)
-
-**Description:** The dataset contains a list of houses that have been sold in Nashville between 2013 and 2019. This project includes the following steps: data loading, data cleaning and preprocessing.
-
-
-**Skills:** DML(Data Manipulation Language), DQL (Data Query Language), DDL (Data Definition Language).
-
-**Technology:** MySQL
-
-
 ### Covid 19 Data Exploration
 **Code:** [`COVID Portfolio Project.sql`](https://github.com)
 
@@ -92,7 +60,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 ## Education
 - Bachelor of Agriculture
-  Ahmadu Bello University (2005-2010)
+  *Ahmadu Bello University
 - Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
 
 ## Certificates
