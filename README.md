@@ -67,7 +67,7 @@ In this section I will list data analytics projects briefly describing the techn
 The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have (in reverse-chronological order, with the date of completion in brackets):
 - [Data Analytics Essentials Certificate](https://www.credly.com/badges/5fae0829-6a96-44a8-8e5f-a0f2e954197f/public_url) (Aug 2024) (CISCO Networking Academy)
 - [Tableau](https://www.coursera.org) (Oct 2024) (Coursera - University of California, Davis)
-- ![Python Essential 1](<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="331230d7-714a-4fdd-9ce5-2afd40ee3ab7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>)(https://www.credly.com/badges/331230d7-714a-4fdd-9ce5-2afd40ee3ab7/public_url) (Aug 2024) (CISCO Networking Academy)
+- [Python Essential 1](https://www.credly.com/badges/331230d7-714a-4fdd-9ce5-2afd40ee3ab7/public_url) (Aug 2024) (CISCO Networking Academy)
 
 ## Contacts
 - LinkedIn: [Jonathan Felix Yashim](https://www.linkedin.com/in/jonathan-felix-yashim-565a0124b/)
