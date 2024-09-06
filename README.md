@@ -1,14 +1,14 @@
 # Jonathan Felix Yashim - Data Analyst Portfolio
 ## About Me
-Hi, I'm Jonathan! As a detail-oriented and analytical Agriculture Science graduate, I've developed a strong foundation in data collection, analysis, and interpretation. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, and data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
+Hi, I'm Jonathan! a detail-oriented and analyst, I've developed a strong foundation in data collection, analysis, and interpretation during my undergraduate programm and work experience. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, machine learning but supervised and unsupervised algorithisms and and advance data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
 
-During my studies, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
+During my undergraduate and with my vast work experience, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
 
 In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
 
 My Resume in [pd_file](https://github.com).
 
-This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
+This repository is to showcase my skills, projects and track my progress in Data Analytics / Data Science related topics.
 
 ## Table of Contents
 - [About](https://github.com//blob/main/README.md#about)
@@ -16,10 +16,10 @@ This is a repository to showcase skills, share projects and track my progress in
 - [Portfolio Projects](https://github.com)
   - Python
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
-    - [Tech Store Sales Analysis](https://github.com)  
+    - [Analyzing Customer Purchasing Behavior](https://github.com)  
   - SQL
-    - [Covid 19 Data Exploration](https://github.com)
-    - [Nashville Housing Data Cleaning](https://github.com/)
+    - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com)
+    - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/)
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
@@ -48,12 +48,60 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
 
-### Covid 19 Data Exploration
-**Code:** [`COVID Portfolio Project.sql`](https://github.com)
+### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
+**Code:** [](https://github.com)
 
 **Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
 
 **Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+**Technology:** MySQL
+
+### Comprehensive Analysis of Customer Shopping Trends
+**Code:** [](https://github.com)
+
+**Description:** The objective of this project is to analyze the shopping trends of customers based on various factors such as age, gender, location, item purchased, category, purchase amount, and other relevant variables. The analysis aims to identify patterns, trends, and correlations between these variables to provide insights into customer behavior and preferences.
+
+**Skills:** Data cleaning and preprocessing, Data visualization, Statistical analysis, Data mining, SQL querying
+
+***Analysis:***
+
+****Demographic Analysis:****
+
+- Age distribution: The majority of customers are between 25-44 years old (60%).
+- Gender distribution: Females account for 55% of customers, while males account for 45%.
+- Location distribution: The top 3 locations are New York, California, and Texas.
+
+****Purchase Behavior:****
+
+- Item purchased: The top 3 items purchased are Electronics, Fashion, and Home Goods.
+- Category distribution: The top 3 categories are Electronics, Fashion, and Beauty.
+- Purchase amount distribution: The average purchase amount is $100, with a range of $10-$500.
+
+****Correlation Analysis:****
+
+- Age vs. Purchase Amount: A moderate positive correlation (0.5) indicates that older customers tend to spend more.
+- Gender vs. Item Purchased: A weak correlation (0.2) suggests that gender does not significantly influence item purchased.
+- Location vs. Category: A moderate correlation (0.6) indicates that customers from different locations tend to purchase different categories.
+
+****Customer Segmentation:****
+
+- Cluster analysis: Identified 5 customer segments based on age, gender, location, and purchase behavior.
+- Segment characteristics:
+    - Segment 1: Young females from urban areas, purchasing fashion and beauty products.
+    - Segment 2: Middle-aged males from suburban areas, purchasing electronics and home goods.
+    - Segment 3: Older females from rural areas, purchasing home goods and kitchenware.
+    - Segment 4: Young males from urban areas, purchasing electronics and gaming products.
+    - Segment 5: Middle-aged females from suburban areas, purchasing fashion and electronics.
+
+***Conclusion:***
+
+The comprehensive analysis of shopping trends provides valuable insights into customer behavior and preferences. The findings can be used to:
+
+1. Inform marketing strategies: Target specific customer segments with tailored marketing campaigns.
+2. Optimize product offerings: Adjust product categories and items to meet customer demand.
+3. Improve customer experience: Personalize customer interactions based on demographic and purchase behavior analysis.
+4. Enhance business operations: Streamline logistics and supply chain management based on location and purchase amount analysis
 
 **Technology:** MySQL
 
