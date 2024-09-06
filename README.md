@@ -51,9 +51,31 @@ In this section I will list data analytics projects briefly describing the techn
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
 **Code:** [](https://github.com)
 
-**Description:** The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
+**Description:** 
+This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, 
+such as quarter, state, total crashes, number injured, number killed, and contributing factors like speed violation, 
+driving under influence, and poor weather.
 
-**Skills:** Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+**Skills:** 
+Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+**Analysis:**
+
+1. Quarterly Trend:Total crashes, number injured, and number killed show a quarterly trend, with Q3 having the highest values.
+2. State-wise Variation: Number injured, speed violation, and poor weather show significant variation across states.
+3. Correlation between Features: Speed violation and driving under alcohol/drug influence show a positive correlation, indicating that states with high speed violation rates also have high rates of driving under influence.
+4. Fatigue and Poor Weather: Fatigue and poor weather show a positive correlation, suggesting that drivers who are fatigued are more likely to be involved in crashes during poor weather conditions.
+
+**Recommendations:**
+1. Targeted Interventions: Implement targeted interventions in states with high rates of speed violation, driving under influence, and poor weather conditions to reduce the number of crashes and fatalities.
+2. Public Awareness Campaigns: Launch public awareness campaigns to educate drivers about the dangers of speeding, driving under influence, and fatigue, and the importance of wearing seatbelts and following traffic rules.
+3. Infrastructure Development: Invest in infrastructure development, such as improving road conditions, installing speed cameras, and enhancing street lighting, to reduce the risk of crashes.
+4. Enforcement of Traffic Laws: Strengthen enforcement of traffic laws, including increasing the number of traffic police personnel, to deter drivers from violating traffic rules.
+5. Data-Driven Decision Making: Use data analytics to inform decision-making and resource allocation, ensuring that interventions are targeted and effective.
+
+**Conclusion:**
+
+The analysis of the Nigeria road traffic crashes dataset reveals significant trends, patterns, and correlations between different features. The findings highlight the need for targeted interventions, public awareness campaigns, infrastructure development, enforcement of traffic laws, and data-driven decision making to reduce the number of crashes and fatalities on Nigerian roads.
 
 **Technology:** MySQL
 
@@ -66,25 +88,25 @@ In this section I will list data analytics projects briefly describing the techn
 
 ***Analysis:***
 
-****Demographic Analysis:****
+1. Demographic Analysis:
 
 - Age distribution: The majority of customers are between 25-44 years old (60%).
 - Gender distribution: Females account for 55% of customers, while males account for 45%.
 - Location distribution: The top 3 locations are New York, California, and Texas.
 
-****Purchase Behavior:****
+2. Purchase Behavior:
 
 - Item purchased: The top 3 items purchased are Electronics, Fashion, and Home Goods.
 - Category distribution: The top 3 categories are Electronics, Fashion, and Beauty.
 - Purchase amount distribution: The average purchase amount is $100, with a range of $10-$500.
 
-****Correlation Analysis:****
+3. Correlation Analysis:
 
 - Age vs. Purchase Amount: A moderate positive correlation (0.5) indicates that older customers tend to spend more.
 - Gender vs. Item Purchased: A weak correlation (0.2) suggests that gender does not significantly influence item purchased.
 - Location vs. Category: A moderate correlation (0.6) indicates that customers from different locations tend to purchase different categories.
 
-****Customer Segmentation:****
+4. Customer Segmentation:
 
 - Cluster analysis: Identified 5 customer segments based on age, gender, location, and purchase behavior.
 - Segment characteristics:
@@ -94,7 +116,7 @@ In this section I will list data analytics projects briefly describing the techn
     - Segment 4: Young males from urban areas, purchasing electronics and gaming products.
     - Segment 5: Middle-aged females from suburban areas, purchasing fashion and electronics.
 
-***Conclusion:***
+**Conclusion:**
 
 The comprehensive analysis of shopping trends provides valuable insights into customer behavior and preferences. The findings can be used to:
 
@@ -112,7 +134,6 @@ The comprehensive analysis of shopping trends provides valuable insights into cu
 - Coursework: Statistics, Research Methods, Data Analysis, and Agricultural Economics
 
 ## Certificates
-The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have (in reverse-chronological order, with the date of completion in brackets):
 - [Data Analytics Essentials Certificate](https://www.credly.com/badges/5fae0829-6a96-44a8-8e5f-a0f2e954197f/public_url) (Aug 2024) (CISCO Networking Academy)
 - [Tableau](https://www.coursera.org) (Oct 2024) (Coursera - University of California, Davis)
 - [Python Essential 1](https://www.credly.com/badges/331230d7-714a-4fdd-9ce5-2afd40ee3ab7/public_url) (Aug 2024) (CISCO Networking Academy)
