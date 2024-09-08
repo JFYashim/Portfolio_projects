@@ -80,7 +80,7 @@ The analysis of the Nigeria road traffic crashes dataset reveals significant tre
 **Technology:** MySQL
 
 ### Comprehensive Analysis of Customer Shopping Trends
-**Code:** [](https://github.com)
+**Code:** [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/Comprehensive%20Analysis%20of%20Customer%20Shopping%20Trends.sql)
 
 **Description:** The objective of this project is to analyze the shopping trends of customers based on various factors such as age, gender, location, item purchased, category, purchase amount, and other relevant variables. The analysis aims to identify patterns, trends, and correlations between these variables to provide insights into customer behavior and preferences.
 
