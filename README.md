@@ -18,7 +18,7 @@ This repository is to showcase my skills, projects and track my progress in Data
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
     - [Analyzing Customer Purchasing Behavior](https://github.com)  
   - SQL
-    - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com)
+    - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
     - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/)
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
@@ -49,7 +49,7 @@ In this section I will list data analytics projects briefly describing the techn
 **Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
-**Code:** [SQL](https://github.com/JFYashim/Portfolio_projects/blob/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
+**Code:** [An Exploratory Analysis of Road Traffic Crashes in Nigeria](https://github.com/JFYashim/Portfolio_projects/blob/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
 
 **Description:** 
 This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, 
