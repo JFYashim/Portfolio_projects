@@ -13,8 +13,8 @@ This repository is to showcase my skills, projects and track my progress in Data
 ## Table of Contents
 - [About](https://github.com//blob/main/README.md#about)
 - [Professional Skills](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#professional-skills)
-- [Portfolio Projects](https://github.com)
-  - Python
+- [Portfolio Projects](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#portfolio-projects)
+  - Python and Machine Learning
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
     - [Analyzing Customer Purchasing Behavior](https://github.com)  
   - SQL
@@ -28,6 +28,7 @@ This repository is to showcase my skills, projects and track my progress in Data
 ## Professional Skills
 - Data analysis and interpretation
 - Statistical software (R, Python)
+- Machine Learning Models(Supervised and Unsupervised)
 - Data visualization (Tableau)
 - SQL and database management
 - Strong research and problem-solving skills
