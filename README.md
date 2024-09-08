@@ -49,7 +49,7 @@ In this section I will list data analytics projects briefly describing the techn
 **Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
-**Code:** [](https://github.com)
+**Code:** [SQL](https://github.com/JFYashim/Portfolio_projects/blob/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
 
 **Description:** 
 This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, 
