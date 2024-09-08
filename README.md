@@ -1,4 +1,4 @@
-# Jonathan Felix Yashim - Data Analyst Portfolio
+# Jonathan Felix Yashim - Data Analyst
 ## About Me
 Hi, I'm Jonathan! a detail-oriented and analyst, I've developed a strong foundation in data collection, analysis, and interpretation during my undergraduate programm and work experience. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, machine learning but supervised and unsupervised algorithisms and and advance data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
 
