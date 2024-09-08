@@ -19,7 +19,7 @@ This repository is to showcase my skills, projects and track my progress in Data
     - [Analyzing Customer Purchasing Behavior](https://github.com)  
   - SQL
     - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
-    - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/)
+    - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#comprehensive-analysis-of-customer-shopping-trends)
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
