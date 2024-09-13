@@ -16,7 +16,8 @@ This repository is to showcase my skills, projects and track my progress in Data
 - [Portfolio Projects](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#portfolio-projects)
   - Python and Machine Learning
     - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
-    - [Analyzing Customer Purchasing Behavior](https://github.com)  
+    - [Analyzing Customer Purchasing Behavior](https://github.com)
+    - [Breast Cancer Diagnostic Dataset Classification](https://github.com)
   - SQL
     - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
     - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#comprehensive-analysis-of-customer-shopping-trends)
@@ -35,6 +36,25 @@ This repository is to showcase my skills, projects and track my progress in Data
 
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
+
+### Breast Cancer Diagnostic Dataset Classification
+**Code:**[Breast Cancer Diagnostic Dataset Classification]()
+
+Dataset: Scikit-learn comes with a few small standard datasets that do not require downloading any file from any external website. The dataset that we will be using for our machine learning problem is the Breast cancer wisconsin (diagnostic) dataset. The dataset includes several data about the breast cancer tumors along with the classifications labels (malignant or benign).
+
+**Goal:** The objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as malignant or benign based on various diagnostic features.
+
+**Description**: Data Preprocessing: The dataset was loaded and explored,Feature Selection: All features were used for training the model,Model Selection: GaussianNB algorithms was evaluated, Model Evaluation: Accuracy score was used to evaluate the models.
+
+**Technology:** Python programming language, Scikit-learn library for machine learning, Breast Cancer Wisconsin (Diagnostic) dataset (included in Scikit-learn)
+  
+Results:
+
+The best performing model accuracy score of 94.15%.
+
+Conclusion:
+
+In this project, i developed a machine learning model to classify breast cancer tumors as malignant or benign. The GaussianNB algorithm achieved an accuracy score of 94.14%, indicating that the model can accurately predict the classification of breast cancer tumors. This model can be used to assist doctors in making accurate diagnoses and providing appropriate treatment. Further improvements can be made by exploring other algorithms and techniques, such as ensemble methods and deep learning.
 
 ### Analyzing the Factors Contributing to the Success of a Movie
 **Code:** [`Analyzing the Factors Contributing to the Success of a Movie.ipynb`](https://github.com)
