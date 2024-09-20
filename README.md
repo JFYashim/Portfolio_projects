@@ -58,9 +58,11 @@ In this section I will list data analytics projects briefly describing the techn
 - **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
 
 ### Comprehensive Analysis of Customer Shopping Trends
-- **Goal:**
-- **Technology:**
-- **Project Code and Report:** [Click this Link]
+- **Goal:** The objective of this project is to analyze the shopping trends of customers based on various factors such as age,
+ gender, location, item purchased, category, purchase amount, and other relevant variables. The analysis aims to identify patterns, 
+ trends, and correlations between these variables to provide insights into customer behavior and preferences.
+- **Technology:** MySQL
+- **Project Code and Report:** [Click this Link]( https://github.com/JFYashim/Portfolio_projects/blob/main/Comprehensive%20Analysis%20of%20Customer%20Shopping%20Trends.sql)
 
 ## Education
 - Bachelor of Agriculture
