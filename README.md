@@ -45,7 +45,7 @@ In this section I will list data analytics projects briefly describing the techn
 ### Breast Cancer Diagnostic Dataset Classification
 - **Goal:** The objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as malignant or benign based on various diagnostic features.
 - **Technology:** Python programming language, Scikit-learn library for machine learning, Breast Cancer Wisconsin (Diagnostic) dataset (included in Scikit-learn)
-- **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/Breast%20Cancer%20Diagnostic%20Dataset%20Classification.ipynb)
+- **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/blob/main/Breast%20Cancer%20Diagnostic%20Dataset%20Classification.ipynb)
 
 ### Prevelence of Mental health disorder by country Visual Analysis
 - **Goal:**
