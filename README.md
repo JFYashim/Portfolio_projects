@@ -38,9 +38,10 @@ This repository is to showcase my skills, projects and track my progress in Data
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 ### Credit Card Fraud Detection System
-- **Goal:**
-- **Technology:**
-- **Project Code and Report:** [Click this Link]
+- **Goal:** This project aimed to develop an efficient credit card fraud detection using machine learning techniques. Our approach utilized a Random Forest classifier to identify fraudulent transactions with high accuracy. 
+- **Technology:** Python Programming, Scikit-learn library for machine learning, Pandas, Matplotlib, Numpy, Seaborn
+- **Project Code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/Credit%20Card%20Fraud%20Detection%20system.ipynb
+)
   
 ### Breast Cancer Diagnostic Dataset Classification
 - **Goal:** The objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as malignant or benign based on various diagnostic features.
