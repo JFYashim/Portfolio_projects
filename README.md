@@ -12,11 +12,11 @@
     - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
     - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#comprehensive-analysis-of-customer-shopping-trends)
   - Tableau
-  - [Click link to Tableau Visuals](https://public.tableau.com/app/profile/jonathan.felix.yashim)
+  - [Click link to Tableau Visuals](https://public.tableau.com/app/profile/jonathan.felix.yashim/vizzes)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
 - [Contact](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#contacts)
-- My Resume in [pd_file](https://github.com).
+- My Resume in [pd_file](https://github.com/JFYashim/Portfolio_projects/blob/main/Jonathan_Felix_Yashim_CV.pdf).
 
 
 
