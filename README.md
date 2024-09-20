@@ -59,16 +59,14 @@ In this section I will list data analytics projects briefly describing the techn
 - **Project Report link:**
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
-- **Code:**
-- **Dataset:**
-- **Goal:**
-- **Technology:**
-- **Project Report link:**
+- **Goal:** This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, such as quarter, state, total crashes, number injured, number killed, and contributing factors like speed violation, driving under influence, and poor weather.
+- **Technology:** MySQL
+- **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
 
 ### Comprehensive Analysis of Customer Shopping Trends
 - **Code:**
 - **Dataset:**
-- **Goal:**
+- 
 - **Technology:**
 - **Project Report link:**
 
