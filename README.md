@@ -38,25 +38,19 @@ This repository is to showcase my skills, projects and track my progress in Data
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 ### Credit Card Fraud Detection System
-- **Code:**
-- **Dataset:**
 - **Goal:**
 - **Technology:**
-- **Project Report link:**
-
-### Breast Cancer Diagnostic Dataset Classification
-- **Code:**
-- **Dataset:**
-- **Goal:**
-- **Technology:**
-- **Project Report link:**
+- **Project Code and Report:** [Click this Link]
   
+### Breast Cancer Diagnostic Dataset Classification
+- **Goal:** The objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as malignant or benign based on various diagnostic features.
+- **Technology:** Python programming language, Scikit-learn library for machine learning, Breast Cancer Wisconsin (Diagnostic) dataset (included in Scikit-learn)
+- **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/Breast%20Cancer%20Diagnostic%20Dataset%20Classification.ipynb)
+
 ### Prevelence of Mental health disorder by country Visual Analysis
-- **Code:**
-- **Dataset:**
 - **Goal:**
 - **Technology:**
-- **Project Report link:**
+- **Project Code and Report:** [Click this Link]
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
 - **Goal:** This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, such as quarter, state, total crashes, number injured, number killed, and contributing factors like speed violation, driving under influence, and poor weather.
@@ -64,11 +58,9 @@ In this section I will list data analytics projects briefly describing the techn
 - **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/edit/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
 
 ### Comprehensive Analysis of Customer Shopping Trends
-- **Code:**
-- **Dataset:**
-- 
+- **Goal:**
 - **Technology:**
-- **Project Report link:**
+- **Project Code and Report:** [Click this Link]
 
 ## Education
 - Bachelor of Agriculture
