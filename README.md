@@ -1,17 +1,7 @@
-# Jonathan Felix Yashim - Data Analyst
-## About Me
-Hi, I'm Jonathan! a detail-oriented and analyst, I've developed a strong foundation in data collection, analysis, and interpretation during my undergraduate programm and work experience. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, machine learning both supervised and unsupervised models and and advance data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
-
-During my undergraduate and with my vast experience, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
-
-In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
-
-My Resume in [pd_file](https://github.com).
-
-This repository is to showcase my skills, projects and track my progress in Data Analytics / Data Science related topics.
+# Jonathan Felix Yashim
 
 ## Table of Contents
-- [About](https://github.com//blob/main/README.md#about)
+- [About Me](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#about-me)
 - [Professional Skills](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#professional-skills)
 - [Portfolio Projects](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#portfolio-projects)
   - Python and Machine Learning
@@ -21,10 +11,21 @@ This repository is to showcase my skills, projects and track my progress in Data
   - SQL
     - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
     - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#comprehensive-analysis-of-customer-shopping-trends)
-  - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
+  - Tableau
+  - [Click link to Tableau Visuals](https://public.tableau.com/app/profile/jonathan.felix.yashim)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
 - [Certificates](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#certificates)
 - [Contact](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#contacts)
+- My Resume in [pd_file](https://github.com).
+
+
+
+## About Me
+Hi, I'm Jonathan! a detail-oriented and analyst, I've developed a strong foundation in data collection, analysis, and interpretation during my undergraduate programm and work experience. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, machine learning both supervised and unsupervised models and and advance data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
+
+During my undergraduate and with my vast experience, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
+
+In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
   
 ## Professional Skills
 - Data analysis and interpretation
@@ -35,7 +36,6 @@ This repository is to showcase my skills, projects and track my progress in Data
 - Strong research and problem-solving skills
 
 ## Portfolio Projects
-In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 ### Credit Card Fraud Detection System
 - **Goal:** This project aimed to develop an efficient credit card fraud detection using machine learning techniques. Our approach utilized a Random Forest classifier to identify fraudulent transactions with high accuracy. 
@@ -49,9 +49,9 @@ In this section I will list data analytics projects briefly describing the techn
 - **Project code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/blob/main/Breast%20Cancer%20Diagnostic%20Dataset%20Classification.ipynb)
 
 ### Prevelence of Mental health disorder by country Visual Analysis
-- **Goal:**
-- **Technology:**
-- **Project Code and Report:** [Click this Link]
+- **Goal:** This visualization shows the prevalence of each mental health disorder by country, allowing for easy comparison across countries.
+- **Technology:** Python Programming, Pandas, Matplotlib, Seaborn, Plotly
+- **Project Code and Report:** [Click this Link](https://github.com/JFYashim/Portfolio_projects/blob/main/Prevalence%20of%20Mental%20Health%20Disorders%20by%20Country%20Visual%20analysis.ipynb)
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
 - **Goal:** This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, such as quarter, state, total crashes, number injured, number killed, and contributing factors like speed violation, driving under influence, and poor weather.
