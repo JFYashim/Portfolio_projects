@@ -15,11 +15,11 @@ This repository is to showcase my skills, projects and track my progress in Data
 - [Professional Skills](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#professional-skills)
 - [Portfolio Projects](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#portfolio-projects)
   - Python and Machine Learning
-    - [Analyzing the Factors Contributing to the Success of a Movie](https://github.com)
-    - [Analyzing Customer Purchasing Behavior](https://github.com)
-    - [Breast Cancer Diagnostic Dataset Classification](https://github.com)
+    - [Credit Card Fraud Detection System](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#credit-card-fraud-detection-system)
+    - [Breast Cancer Diagnostic Dataset Classification](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#breast-cancer-diagnostic-dataset-classification)
+    - [Prevelence of Mental health disorder by country Visual Analysis](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#prevelence-of-mental-health-disorder-by-country-visual-analysis)
   - SQL
-    - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations.sql](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
+    - [An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#an-exploratory-analysis-of-road-traffic-crashes-in-nigeria-trends_patterns_correlations)
     - [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#comprehensive-analysis-of-customer-shopping-trends)
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/jonathan.felix.yashim)
 - [Education](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#education)  
@@ -37,117 +37,40 @@ This repository is to showcase my skills, projects and track my progress in Data
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
+### Credit Card Fraud Detection System
+- **Code:**
+- **Dataset:**
+- **Goal:**
+- **Technology:**
+- **Project Report link:**
+
 ### Breast Cancer Diagnostic Dataset Classification
-**Code:**[Breast Cancer Diagnostic Dataset Classification]()
-
-Dataset: Scikit-learn comes with a few small standard datasets that do not require downloading any file from any external website. The dataset that we will be using for our machine learning problem is the Breast cancer wisconsin (diagnostic) dataset. The dataset includes several data about the breast cancer tumors along with the classifications labels (malignant or benign).
-
-**Goal:** The objective of this project is to develop a machine learning model that can accurately classify breast cancer tumors as malignant or benign based on various diagnostic features.
-
-**Description**: Data Preprocessing: The dataset was loaded and explored,Feature Selection: All features were used for training the model,Model Selection: GaussianNB algorithms was evaluated, Model Evaluation: Accuracy score was used to evaluate the models.
-
-**Technology:** Python programming language, Scikit-learn library for machine learning, Breast Cancer Wisconsin (Diagnostic) dataset (included in Scikit-learn)
+- **Code:**
+- **Dataset:**
+- **Goal:**
+- **Technology:**
+- **Project Report link:**
   
-Results:
-
-The best performing model accuracy score of 94.15%.
-
-Conclusion:
-
-In this project, i developed a machine learning model to classify breast cancer tumors as malignant or benign. The GaussianNB algorithm achieved an accuracy score of 94.14%, indicating that the model can accurately predict the classification of breast cancer tumors. This model can be used to assist doctors in making accurate diagnoses and providing appropriate treatment. Further improvements can be made by exploring other algorithms and techniques, such as ensemble methods and deep learning.
-
-### Analyzing the Factors Contributing to the Success of a Movie
-**Code:** [`Analyzing the Factors Contributing to the Success of a Movie.ipynb`](https://github.com)
-
-**Goal:** To determine what factors contribute the most to a movie's success.
-
-**Description:** The project focused on analyzing a dataset of movies released between 1980 and 2022. The dataset included movie titles, ratings, genres, release dates, budgets, gross earnings, and other relevant information. The project involved loading the data, cleaning and preprocessing it, performing exploratory data analysis (EDA), analyzing the correlation between budget and gross earnings, and implemented Pearson’s correlation statistical analysis.
-
-**Skills:** data cleaning, data analysis, correlation matrices, hypothesis testing, data visualization.
-
-**Technology:** Python, Pandas, Numpy, Seaborn, Matplotlib, SciPy.
-
-**Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
+### Prevelence of Mental health disorder by country Visual Analysis
+- **Code:**
+- **Dataset:**
+- **Goal:**
+- **Technology:**
+- **Project Report link:**
 
 ### An Exploratory Analysis of Road Traffic Crashes in Nigeria Trends_Patterns_Correlations
-**Code:** [An Exploratory Analysis of Road Traffic Crashes in Nigeria](https://github.com/JFYashim/Portfolio_projects/blob/main/An%20Exploratory%20Analysis%20of%20Road%20Traffic%20Crashes%20in%20Nigeria%20Trends_Patterns_Correlations.sql)
-
-**Description:** 
-This project involves analyzing the dataset to identify trends, patterns, and correlations between different features, 
-such as quarter, state, total crashes, number injured, number killed, and contributing factors like speed violation, 
-driving under influence, and poor weather.
-
-**Skills:** 
-Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
-
-**Analysis:**
-
-1. Quarterly Trend:Total crashes, number injured, and number killed show a quarterly trend, with Q3 having the highest values.
-2. State-wise Variation: Number injured, speed violation, and poor weather show significant variation across states.
-3. Correlation between Features: Speed violation and driving under alcohol/drug influence show a positive correlation, indicating that states with high speed violation rates also have high rates of driving under influence.
-4. Fatigue and Poor Weather: Fatigue and poor weather show a positive correlation, suggesting that drivers who are fatigued are more likely to be involved in crashes during poor weather conditions.
-
-**Recommendations:**
-1. Targeted Interventions: Implement targeted interventions in states with high rates of speed violation, driving under influence, and poor weather conditions to reduce the number of crashes and fatalities.
-2. Public Awareness Campaigns: Launch public awareness campaigns to educate drivers about the dangers of speeding, driving under influence, and fatigue, and the importance of wearing seatbelts and following traffic rules.
-3. Infrastructure Development: Invest in infrastructure development, such as improving road conditions, installing speed cameras, and enhancing street lighting, to reduce the risk of crashes.
-4. Enforcement of Traffic Laws: Strengthen enforcement of traffic laws, including increasing the number of traffic police personnel, to deter drivers from violating traffic rules.
-5. Data-Driven Decision Making: Use data analytics to inform decision-making and resource allocation, ensuring that interventions are targeted and effective.
-
-**Conclusion:**
-
-The analysis of the Nigeria road traffic crashes dataset reveals significant trends, patterns, and correlations between different features. The findings highlight the need for targeted interventions, public awareness campaigns, infrastructure development, enforcement of traffic laws, and data-driven decision making to reduce the number of crashes and fatalities on Nigerian roads.
-
-**Technology:** MySQL
+- **Code:**
+- **Dataset:**
+- **Goal:**
+- **Technology:**
+- **Project Report link:**
 
 ### Comprehensive Analysis of Customer Shopping Trends
-**Code:** [Comprehensive Analysis of Customer Shopping Trends](https://github.com/JFYashim/Portfolio_projects/blob/main/Comprehensive%20Analysis%20of%20Customer%20Shopping%20Trends.sql)
-
-**Description:** The objective of this project is to analyze the shopping trends of customers based on various factors such as age, gender, location, item purchased, category, purchase amount, and other relevant variables. The analysis aims to identify patterns, trends, and correlations between these variables to provide insights into customer behavior and preferences.
-
-**Skills:** Data cleaning and preprocessing, Data visualization, Statistical analysis, Data mining, SQL querying
-
-***Analysis:***
-
-1. Demographic Analysis:
-
-- Age distribution: The majority of customers are between 25-44 years old (60%).
-- Gender distribution: Females account for 55% of customers, while males account for 45%.
-- Location distribution: The top 3 locations are New York, California, and Texas.
-
-2. Purchase Behavior:
-
-- Item purchased: The top 3 items purchased are Electronics, Fashion, and Home Goods.
-- Category distribution: The top 3 categories are Electronics, Fashion, and Beauty.
-- Purchase amount distribution: The average purchase amount is $100, with a range of $10-$500.
-
-3. Correlation Analysis:
-
-- Age vs. Purchase Amount: A moderate positive correlation (0.5) indicates that older customers tend to spend more.
-- Gender vs. Item Purchased: A weak correlation (0.2) suggests that gender does not significantly influence item purchased.
-- Location vs. Category: A moderate correlation (0.6) indicates that customers from different locations tend to purchase different categories.
-
-4. Customer Segmentation:
-
-- Cluster analysis: Identified 5 customer segments based on age, gender, location, and purchase behavior.
-- Segment characteristics:
-    - Segment 1: Young females from urban areas, purchasing fashion and beauty products.
-    - Segment 2: Middle-aged males from suburban areas, purchasing electronics and home goods.
-    - Segment 3: Older females from rural areas, purchasing home goods and kitchenware.
-    - Segment 4: Young males from urban areas, purchasing electronics and gaming products.
-    - Segment 5: Middle-aged females from suburban areas, purchasing fashion and electronics.
-
-**Conclusion:**
-
-The comprehensive analysis of shopping trends provides valuable insights into customer behavior and preferences. The findings can be used to:
-
-1. Inform marketing strategies: Target specific customer segments with tailored marketing campaigns.
-2. Optimize product offerings: Adjust product categories and items to meet customer demand.
-3. Improve customer experience: Personalize customer interactions based on demographic and purchase behavior analysis.
-4. Enhance business operations: Streamline logistics and supply chain management based on location and purchase amount analysis
-
-**Technology:** MySQL
-
+- **Code:**
+- **Dataset:**
+- **Goal:**
+- **Technology:**
+- **Project Report link:**
 
 ## Education
 - Bachelor of Agriculture
@@ -156,12 +79,11 @@ The comprehensive analysis of shopping trends provides valuable insights into cu
 
 ## Certificates
 - [Data Analytics Essentials Certificate](https://www.credly.com/badges/5fae0829-6a96-44a8-8e5f-a0f2e954197f/public_url) (Aug 2024) (CISCO Networking Academy)
-- [Tableau](https://www.coursera.org) (Oct 2024) (Coursera - University of California, Davis)
+- [Machine Learning in Python Environment](https://www.Alison.com) ( 2024) (Alison)
 - [Python Essential 1](https://www.credly.com/badges/331230d7-714a-4fdd-9ce5-2afd40ee3ab7/public_url) (Aug 2024) (CISCO Networking Academy)
 
 ## Contacts
 - LinkedIn: [Jonathan Felix Yashim](https://www.linkedin.com/in/jonathan-felix-yashim-565a0124b/)
 - Email: jonathan_felix_yashim@yahoo.com
 - Kaggle: [Jonathan Felix Yashim](http://www.kaggle.com/dacrow)
-- X : [Joanathan Felix Yashim](https://x.com/yashim_jonathan)
 
