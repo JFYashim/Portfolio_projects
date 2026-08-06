@@ -61,7 +61,7 @@ Contrary to standard industry assumptions, solo releases severely outperform col
 
 ![Solo vs Collaboration](images/collab_vs_solo_streams.png)
 ![Artist Count Returns](images/artist_count_diminishing_returns.png)
-
+![Alt Text](images/artist_count_diminishing_returns.png)
 ---
 
 ### 2. High-Momentum Catalog Targets
