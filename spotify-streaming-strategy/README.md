@@ -1,6 +1,6 @@
-# 🎵 Spotify Portfolio Strategy & Streaming Growth Optimization
+#  Spotify Portfolio Strategy & Streaming Growth Optimization
 
-## 📌 Executive Summary
+##  Executive Summary
 This project analyzes streaming metrics across 730 top Spotify tracks using the **PACE Framework** to establish data-driven release strategies, feature booking guidelines, and marketing spend allocations for an independent record label.
 
 * **Solo Performance Dominance:** Solo releases account for **96.8% of top-charting tracks** (707 out of 730). Solo tracks generate over **$2.1\times$ higher mean daily streams** (~374.7k vs ~177.3k) than collaborative releases ($p = 0.98527$).
@@ -9,17 +9,17 @@ This project analyzes streaming metrics across 730 top Spotify tracks using the 
 
 ---
 
-## 🏢 Business Context
+##  Business Context
 A mid-sized independent record label is preparing its multi-million dollar release strategy and promotional budget. Historically, label executives relied on intuition and traditional radio metrics to negotiate artist features and schedule marketing windows. With streaming driving the majority of music industry revenue, the team requires empirical analysis to maximize daily streaming performance and catalog longevity on Spotify.
 
 ---
 
-## 🎯 Core Problem Statement
+##  Core Problem Statement
 How can the label optimize its artist signing, collaboration models, and release promotional strategies to maximize both immediate daily streaming velocity and sustained long-term track play counts?
 
 ---
 
-## 🔍 Key Business & Research Questions
+##  Key Business & Research Questions
 
 * **The Collaboration Premium:** Do collaborative tracks (`is_collaboration` = `True`) achieve higher total or daily streams compared to solo releases? Does increasing credited artists (`billed_artist_count`) yield diminishing returns?
 * **Daily Momentum vs. All-Time Giants:** What is the correlation between a track's total stream count (`spotify_streams_total`) and its daily velocity (`daily_streams`)? Which lower-ranked catalog tracks exhibit strong daily momentum?
@@ -28,7 +28,7 @@ How can the label optimize its artist signing, collaboration models, and release
 
 ---
 
-## 📋 PACE Analytical Roadmap
+##  PACE Analytical Roadmap
 
 1. **Plan:** Formulate empirical business guidelines for feature contract negotiations, ad-spend timing, and catalog reinvestment.
 2. **Analyze:** Inspect data hygiene across 730 entries, evaluate stream distributions, and test cross-variable relationships.
@@ -37,7 +37,7 @@ How can the label optimize its artist signing, collaboration models, and release
 
 ---
 
-## 📦 Deliverables & Analytical Outputs
+##  Deliverables & Analytical Outputs
 
 1. **Collaboration Performance Framework:** Non-parametric statistical proof comparing solo vs. collaborative streaming metrics to direct artist feature negotiations.
 2. **Viral Momentum Matrix:** A ranking model identifying tracks accelerating faster in daily stream rank than their overall play count rank.
@@ -45,7 +45,7 @@ How can the label optimize its artist signing, collaboration models, and release
 
 ---
 
-## 📊 Key Findings & Data Insights
+##  Key Findings & Data Insights
 
 ### 1. Solo vs. Collaboration Performance
 Contrary to standard industry assumptions, solo releases severely outperform collaborative tracks across both daily velocity and cumulative volume in this dataset.
@@ -83,7 +83,7 @@ By calculating `rank_delta` (`rank` $-$ `daily_streams_rank`), we isolated sleep
 
 ---
 
-## 💡 Strategic Recommendations
+##  Strategic Recommendations
 
 1. **Capitalize on Solo Lead Singles:** Prioritize promotional funding and push windows for solo releases. Solo tracks demonstrate stronger average baseline velocity than feature co-releases in this tier.
 2. **Restructure Collaboration Contracts:** Re-evaluate upfront feature payments and royalty split structures. Given that collaborative tracks underperform solo releases in daily volume, feature bookings should serve secondary cross-promotional goals rather than primary stream drivers.
@@ -91,7 +91,7 @@ By calculating `rank_delta` (`rank` $-$ `daily_streams_rank`), we isolated sleep
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 spotify-streaming-strategy/
