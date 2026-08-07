@@ -1,0 +1,56 @@
+# Automotive Valuation & Market Strategy Analysis
+
+**Author & Lead Data Scientist:** [Jonathan Felix Yashim](https://github.com/JFYashim)  
+**Role:** Lead Data Analyst / Data Scientist  
+**Methodology:** Google PACE Framework (Plan, Analyze, Construct, Execute)
+
+---
+
+## Project Overview
+
+This repository contains an end-to-end exploratory data analysis and valuation strategy model built on 5,500 automobile records. The project evaluates key depreciation factors, condition penalties, and regional demand distributions to help pre-owned dealership networks optimize trade-in pricing and inventory turnover.
+
+---
+
+## Executive Summary
+
+* **Dataset Scale & Prep:** Evaluated and cleaned 5,500 vehicle records across 18 specifications, resolving all missing entries across engine specs and history logs without dropping observation rows.
+* **Core Price Drivers:** Vehicle age and mileage are the primary drivers of value loss, whereas engine size and horsepower show negligible impact on final resale price.
+* **Condition Impact:** Recorded accident histories result in severe financial penalties, reducing average vehicle value by 59% to 73%.
+* **Feature Engineering:** Extracted `Vehicle_Age` and applied frequency encoding to high-cardinality categorical variables (`Make`, `Model`, `Location`, `Color`) for predictive modeling readiness.
+
+---
+
+## Business Context
+
+A nationwide used-car dealership network is upgrading how it prices inventory and allocates its buying budget. In the past, sales managers depended on personal experience and local gut feel to evaluate trade-ins and set sticker prices. With modern online car sites making prices fully visible to consumers, the business needs a data-driven model to protect profit margins and sell vehicles faster.
+
+---
+
+## Core Problem Statement
+
+How can the business optimize unit pricing, trade-in valuations, and regional inventory distribution to maximize gross profit margins while minimizing days-on-market for pre-owned vehicles?
+
+---
+
+## Key Business & Research Questions
+
+* **The Power Premium:** Do larger engines (`Engine_Size`) and higher horsepower (`Horsepower`) command higher selling prices across different body styles?
+* **Depreciation & Mileage:** How strongly do `Vehicle_Age` and total `Mileage` combine to drive down vehicle resale value?
+* **Accident Penalty:** What is the precise financial impact of a recorded accident (`Accident_History`) on final listing prices?
+* **Regional Preferences:** Does vehicle demand vary by location (`Location_Freq`), and do specific regional markets favor certain body styles (`Body_Type`)?
+
+---
+
+## Project Structure
+
+```text
+├── data/
+│   └── raw_automobile_data.csv       # Original dataset (5,500 records)
+├── notebooks/
+│   └── Automotive_Valuation_Analysis.ipynb  # Primary Jupyter Notebook
+├── visuals/
+│   ├── vehicle_age_vs_price.png      # High-res plot outputs
+│   └── accident_penalty_dist.png
+├── README.md                         # Project documentation
+└── requirements.txt                  # Python dependencies
