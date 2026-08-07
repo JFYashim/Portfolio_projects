@@ -1,4 +1,9 @@
-#  Spotify Portfolio Strategy & Streaming Growth Optimization
+## Author & Data Scientist
+
+# **Jonathan Felix Yashim**
+* **GitHub:** [@JFYashim](https://github.com/JFYashim)
+* **Project:** [Spotify Portfolio Strategy & Streaming Growth Optimization](https://github.com/JFYashim/Portfolio_projects/tree/main/spotify-streaming-strategy)
+* **Role:** Lead Data Analyst / Data Scientist
 
 ##  Executive Summary
 This project analyzes streaming metrics across 730 top Spotify tracks using the **PACE Framework** to establish data-driven release strategies, feature booking guidelines, and marketing spend allocations for an independent record label.
@@ -59,6 +64,8 @@ Contrary to standard industry assumptions, solo releases severely outperform col
 
 * **Hypothesis Test:** Mann-Whitney U Test ($p = 0.98527$) confirms no statistically significant collaboration premium exists.
 
+
+---
 ![Solo vs Collaboration](images/collab_vs_solo_streams.png)
 ![Artist Count Returns](images/artist_count_diminishing_returns.png)
 ---
