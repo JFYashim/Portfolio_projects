@@ -64,6 +64,14 @@ All missing data points were resolved using domain-appropriate statistical imput
 
 ---
 
+## Key Visualizations
+
+### 1. Horsepower vs. Selling Price Across Body Types
+![Horsepower vs Selling Price](Visuals/Horsepower%20vs.%20Selling%20Price%20Across%20Body%20Types.png)
+
+### 2. Vehicle Age vs. Selling Price Depreciation
+![Vehicle Age vs Selling Price](Visuals/Vehicle%20Age%20vs.%20Selling%20Price%20Depreciation.png)
+---
 ## Strategic Recommendations
 
 1. **Automate Appraisal Baselines:** Set trade-in offers and list prices primarily on `Vehicle_Age` and `Mileage` rather than engine displacement or horsepower options.
@@ -71,16 +79,16 @@ All missing data points were resolved using domain-appropriate statistical imput
 3. **Condition-Based Stock Distribution:** Base regional inventory transfers on vehicle age, mileage, and condition rather than shifting stock based on location alone.
 
 ---
----
 
 ## Repository Structure
 
-```text
+```
 Automotive-Valuation-Market-Strategy-Analysis/
-├── data/                     # Raw and processed datasets
-├── notebooks/                # Jupyter notebook analysis
-├── visuals/                  # Key generated visualization charts
-│   ├── vehicle_age_vs_price.png
-│   └── accident_penalty_dist.png
+├── Data/                     # Raw and processed datasets
+├── NoteBooks/                # Jupyter notebook analysis
+├── Visuals/                  # Key generated visualization charts
+│   ├── Horsepower vs. Selling Price Across Body Types.png
+│   └── Vehicle Age vs. Selling Price Depreciation.png
 ├── README.md                 # Project documentation & findings
 └── requirements.txt          # Python dependencies
+```
