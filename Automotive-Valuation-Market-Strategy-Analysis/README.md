@@ -82,7 +82,7 @@ All missing data points were resolved using domain-appropriate statistical imput
 
 ## Repository Structure
 
-```
+```text
 Automotive-Valuation-Market-Strategy-Analysis/
 ├── Data/                     # Raw and processed datasets
 ├── NoteBooks/                # Jupyter notebook analysis
@@ -90,5 +90,5 @@ Automotive-Valuation-Market-Strategy-Analysis/
 │   ├── Horsepower vs. Selling Price Across Body Types.png
 │   └── Vehicle Age vs. Selling Price Depreciation.png
 ├── README.md                 # Project documentation & findings
-└── requirements.txt          # Python dependencies
-```
+├── requirements.txt          # Python dependencies
+└── vehicle_valuation_app.py  # Interactive Streamlit valuation app
