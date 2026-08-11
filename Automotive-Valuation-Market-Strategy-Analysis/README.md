@@ -11,7 +11,8 @@
 
 This project provides an end-to-end data analysis and valuation strategy model built on 5,500 automobile records. The objective is to establish an empirical framework for pre-owned vehicle pricing, trade-in appraisals, and regional inventory allocation to maximize gross profit margins and reduce days-on-market.
 
-> 🚀 **Live Interactive App:** [Vehicle Valuation App](https://your-app-url.streamlit.app)
+> 🚀 **Live Interactive App:** [Vehicle Valuation App](https://jfy-vehicle-valuation-app.streamlit.app)
+
 
 * **Dataset Scale & Prep:** Cleaned and imputed missing values across 5,500 vehicle records spanning 18 specifications, achieving 100% data retention.
 * **Primary Pricing Drivers:** Vehicle age and mileage dominate depreciation, while engine size and horsepower show negligible impact on final resale prices.
