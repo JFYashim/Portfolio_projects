@@ -72,24 +72,27 @@ if assets_loaded:
 
     submit = st.form_submit_button("Predict Fare", use_container_width=True)
 
-  if submit:
-    pickup_datetime = datetime.datetime.combine(pickup_date, pickup_time)
-    hour_of_day = pickup_datetime.hour
-    day_of_week = pickup_datetime.weekday()
-    month = pickup_datetime.month
+ if submit:
+        pickup_datetime = datetime.datetime.combine(pickup_date, pickup_time)
+        hour_of_day = pickup_datetime.hour
+        day_of_week = pickup_datetime.weekday()
+        month = pickup_datetime.month
 
-    input_data = pd.DataFrame([{
-        "trip_distance": trip_distance,
-        "duration_minutes": duration_minutes,
-        "hour_of_day": hour_of_day,
-        "day_of_week": day_of_week,
-        "month": month,
-        "RatecodeID": rate_code,
-    }])
+        input_data = pd.DataFrame([{
+            "trip_distance": trip_distance,
+            "duration_minutes": duration_minutes,
+            "hour_of_day": hour_of_day,
+            "day_of_week": day_of_week,
+            "month": month,
+            "RatecodeID": rate_code,
+        }])
 
-    scaled_features = scaler.transform(input_data)
-    prediction = model.predict(scaled_features)[0]
+        # Dynamically reorder and match columns expected by the scaler
+        if hasattr(scaler, "feature_names_in_"):
+            input_data = input_data[scaler.feature_names_in_]
 
+        scaled_features = scaler.transform(input_data)
+        prediction = model.predict(scaled_features)[0]
     st.success(f"### Estimated Fare: **${prediction:.2f}**")
     st.caption(
         "Note: Prediction reflects base fare excluding tips, tolls, and extra"
