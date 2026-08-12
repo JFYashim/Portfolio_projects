@@ -5,20 +5,29 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# Set base directory relative to this script
 BASE_DIR = Path(__file__).resolve().parent
 
-# Page setup
 st.set_page_config(
     page_title="NYC Taxi Fare Predictor", page_icon="🚕", layout="centered"
 )
 
 
-# Load model and scaler
 @st.cache_resource
 def load_assets():
-    model = joblib.load(BASE_DIR / "nyc_taxi_rf_model.pkl")
-    scaler = joblib.load(BASE_DIR / "scaler.pkl")
+    model_path = BASE_DIR / "nyc_taxi_rf_model.pkl"
+    scaler_path = BASE_DIR / "scaler.pkl"
+
+    if not model_path.exists():
+        raise FileNotFoundError(f"Missing file: {model_path}")
+    if not scaler_path.exists():
+        raise FileNotFoundError(f"Missing file: {scaler_path}")
+
+    # Check for Git LFS pointer files (if size is under 1KB)
+    if model_path.stat().st_size < 1024:
+        raise ValueError(f"model file appears to be an LFS pointer ({model_path.stat().st_size} bytes)")
+
+    model = joblib.load(model_path)
+    scaler = joblib.load(scaler_path)
     return model, scaler
 
 
@@ -26,7 +35,7 @@ try:
     model, scaler = load_assets()
     assets_loaded = True
 except Exception as e:
-    st.error(f"Error loading model files: {e}")
+    st.error(f"Error loading model files: {type(e).__name__} - {e}")
     assets_loaded = False
 
 st.title("🚕 NYC Taxi Fare Predictor")
@@ -88,7 +97,6 @@ if assets_loaded:
                 }
             ])
 
-            # Safely align input_data with expected scaler features
             if hasattr(scaler, "feature_names_in_"):
                 input_data = input_data.reindex(
                     columns=scaler.feature_names_in_, fill_value=0
