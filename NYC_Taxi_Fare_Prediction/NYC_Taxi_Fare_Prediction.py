@@ -88,15 +88,16 @@ if assets_loaded:
                 }
             ])
 
-            # Dynamically reorder and match columns expected by the scaler
+            # Safely align input_data with expected scaler features
             if hasattr(scaler, "feature_names_in_"):
-                input_data = input_data[scaler.feature_names_in_]
+                input_data = input_data.reindex(
+                    columns=scaler.feature_names_in_, fill_value=0
+                )
 
             scaled_features = scaler.transform(input_data)
             prediction = model.predict(scaled_features)[0]
 
             st.success(f"### Estimated Fare: **${prediction:.2f}**")
             st.caption(
-                "Note: Prediction reflects base fare excluding tips, tolls, and extra"
-                " surcharges."
+                "Note: Prediction reflects base fare excluding tips, tolls, and extra surcharges."
             )
