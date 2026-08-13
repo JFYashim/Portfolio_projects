@@ -5,13 +5,16 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+# Set base directory relative to this script
 BASE_DIR = Path(__file__).resolve().parent
 
+# Page setup
 st.set_page_config(
     page_title="NYC Taxi Fare Predictor", page_icon="🚕", layout="centered"
 )
 
 
+# Load model and scaler
 @st.cache_resource
 def load_assets():
     model_path = BASE_DIR / "nyc_taxi_rf_model.pkl"
@@ -24,7 +27,9 @@ def load_assets():
 
     # Check for Git LFS pointer files (if size is under 1KB)
     if model_path.stat().st_size < 1024:
-        raise ValueError(f"model file appears to be an LFS pointer ({model_path.stat().st_size} bytes)")
+        raise ValueError(
+            f"model file appears to be an LFS pointer ({model_path.stat().st_size} bytes)"
+        )
 
     model = joblib.load(model_path)
     scaler = joblib.load(scaler_path)
@@ -97,13 +102,25 @@ if assets_loaded:
                 }
             ])
 
+            # Align input_data to match scaler features
             if hasattr(scaler, "feature_names_in_"):
                 input_data = input_data.reindex(
                     columns=scaler.feature_names_in_, fill_value=0
                 )
 
             scaled_features = scaler.transform(input_data)
-            prediction = model.predict(scaled_features)[0]
+
+            # Reindex scaled features if the Random Forest model expects named features
+            if hasattr(model, "feature_names_in_"):
+                scaled_df = pd.DataFrame(
+                    scaled_features, columns=getattr(scaler, "feature_names_in_", None)
+                )
+                scaled_df = scaled_df.reindex(
+                    columns=model.feature_names_in_, fill_value=0
+                )
+                prediction = model.predict(scaled_df)[0]
+            else:
+                prediction = model.predict(scaled_features)[0]
 
             st.success(f"### Estimated Fare: **${prediction:.2f}**")
             st.caption(
