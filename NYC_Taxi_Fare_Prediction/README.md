@@ -11,7 +11,7 @@
 
 An end-to-end machine learning project analyzing the 2017 Yellow Taxi Trip Dataset to build predictive models for estimating taxi fare amounts in New York City. This repository demonstrates data preprocessing, feature engineering, and model evaluation comparing Linear Regression against a tuned Random Forest Regressor.
 
-🚀 **Live Interactive Notebook:** [NYC_Taxi_Fare_Prediction.ipynb](https://github.com/JFYashim/Portfolio_projects/blob/main/NYC_Taxi_Fare_Prediction/Notebook/NYC_Taxi_Fare_Prediction.ipynb)
+🚀 **Live Interactive App:** [NYC Taxi Fare Prediction App](https://new-york-city-taxi-fare-prediction.streamlit.app/)
 
 * **Dataset Scale & Prep:** Cleaned and extracted spatial and temporal attributes across 22,699 trip records spanning 18 initial specifications, achieving high data quality.
 * **Primary Pricing Drivers:** Trip distance and trip duration heavily dominate taxi fares, accounting for over 96% of feature importance in price prediction.
