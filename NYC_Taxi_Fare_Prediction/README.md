@@ -68,6 +68,8 @@ NYC_Taxi_Fare_Prediction/
 ├── Data/                       # Raw and processed dataset files
 ├── Notebook/
 │   └── NYC_Taxi_Fare_Prediction.ipynb   # Main Jupyter Notebook
+├── NYC_Taxi_Fare_Prediction.py # Streamlit web application script
 ├── nyc_taxi_rf_model.pkl       # Saved Random Forest model
+├── requirements.txt            # Python package dependencies for deployment
 ├── scaler.pkl                  # Fitted StandardScaler object
 └── README.md                   # Project documentation
