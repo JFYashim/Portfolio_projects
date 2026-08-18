@@ -6,7 +6,7 @@
 
 An end-to-end machine learning solution built using Google's **PACE** (Plan, Analyze, Construct, Execute) framework to identify fraudulent credit card transactions and support real-time risk assessment.
 
-🔗 **Live Web Application:** [jfy-credit-card-fraud-detection.streamlit.app](https://jfy-credit-card-fraud-detection.streamlit.app/)
+🔗 **Live Web Application:** [Credit card fraud detection System](https://jfy-credit-card-fraud-detection.streamlit.app/)
 
 **Author:** Jonathan Felix Yashim  
 **Role:** Lead Data Scientist / Data Analyst  
