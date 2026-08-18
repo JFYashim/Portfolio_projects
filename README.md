@@ -1,5 +1,10 @@
-# Jonathan Felix Yashim
+# Hi, I'm Jonathan Felix Yashim 👋
+### Lead Data Scientist & Data Analyst
 
+[![Google Data Analytics Certified](https://img.shields.io/badge/Google-Data%20Analytics%20Certified-4285F4?style=for-the-badge&logo=google&logoColor=white)]([https://coursera.org/verify/YOUR_CERTIFICATE_ID](https://www.coursera.org/account/accomplishments/verify/P55HL11UGOQG))
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)]([https://www.python.org/](https://www.coursera.org/account/accomplishments/verify/C9GE1QRFEUZ9))
+
+---
 ## Table of Contents
 - [About Me](https://github.com/JFYashim/Portfolio_projects/edit/main/README.md#about-me)
 - [Professional Skills](https://github.com/JFYashim/Portfolio_projects/blob/main/README.md#professional-skills)
@@ -21,12 +26,11 @@
 
 
 ## About Me
-Hi, I'm Jonathan! a detail-oriented and analyst, I've developed a strong foundation in data collection, analysis, and interpretation during my undergraduate programm and work experience. With a solid understanding of statistical principles and research methods, I've expanded my skill set to include Python, SQL, machine learning both supervised and unsupervised models and and advance data visualization tools like Tableau. I'm excited to apply my unique blend of agricultural knowledge and data analysis skills to drive insights and inform decisions in data-driven industries. I am excited to bring my technical and analytical skills to the field of data science as a data analyst. 
+ Hi, I'm Jonathan! I am a Google-certified Lead Data Analyst and Data Scientist with a strong foundation in statistical principles, end-to-end data pipelines, and predictive modeling. Having completed the Google Data Analytics Professional Certificate, I bring proven proficiency in Python, SQL, machine learning (supervised and unsupervised models), and advanced visualization tools like Tableau and Streamlit.
 
-During my undergraduate and with my vast experience, I honed my skills with a strong foundation in data collection, analysis, and interpretation. Leveraging my skills in statistical analysis and research, i've developed proficiency in Python and SQL for data analysis with the ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data analyst. I'm excited to apply my unique perspective and skills to drive insights and inform decisions in data driven industries.
+My background bridges domain research and laboratory techniques with modern data analytics. This unique perspective enables me to approach complex datasets with a keen eye for pattern recognition, translating raw, unstructured information into clear, actionable business insights.
 
-In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
-  
+Driven by the thrill of discovering insights and solving complex problems, I excel in both collaborative team environments and independent projects. I am constantly exploring new data frameworks and tools to expand my technical capabilities and stay at the forefront of data science.
 ## Professional Skills
 - Data analysis and interpretation
 - Statistical software (R, Python)
