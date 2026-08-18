@@ -1,24 +1,32 @@
-# Credit Card Fraud Detection Pipeline
+# 💳 Credit Card Fraud Detection System
 
-An end-to-end machine learning solution built using Google's **PACE (Plan, Analyze, Construct, Execute)** framework to identify fraudulent credit card transactions and support real-time risk assessment.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jfy-credit-card-fraud-detection.streamlit.app/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+
+An end-to-end machine learning solution built using Google's **PACE** (Plan, Analyze, Construct, Execute) framework to identify fraudulent credit card transactions and support real-time risk assessment.
+
+🔗 **Live Web Application:** [jfy-credit-card-fraud-detection.streamlit.app](https://jfy-credit-card-fraud-detection.streamlit.app/)
 
 **Author:** Jonathan Felix Yashim  
 **Role:** Lead Data Scientist / Data Analyst  
 
 ---
 
-## Business Core Problem
+## 📌 Business Problem
 
-Credit card fraud poses a severe operational and financial challenge for payment processors and financial institutions:
+Credit card fraud poses severe financial and operational challenges for financial institutions:
+* **Extreme Class Imbalance:** Fraud accounts for less than **0.2%** of overall transaction volume (~1 in 600 transactions). Standard accuracy metrics fail here (a dummy model predicting "100% legitimate" achieves 99.8% accuracy while missing every fraud event).
+* **Customer Friction vs. Protection:** False positives damage customer trust, while false negatives cause unrecoverable capital losses.
 
-* **Direct Financial Losses:** Undetected fraudulent transactions lead to chargeback penalties, stolen capital, and increased insurance premiums.
-* **Customer Friction vs. Protection:** Blocking legitimate transactions (False Positives) damages customer trust, while failing to block fraud (False Negatives) leads to unrecoverable losses.
-* **Extreme Class Imbalance:** Fraud accounts for less than **0.2%** of overall transaction volume (~1 in 600 transactions). Standard accuracy metrics fail here, as a model predicting "100% legitimate" achieves 99.8% accuracy while missing every single fraud attempt.
+**Project Objective:** Build a cost-sensitive machine learning system that maximizes fraud capture rate (**Recall**) while providing local feature explanations to help fraud analysts investigate flagged transactions efficiently.
 
-**Project Objective:** Build a cost-sensitive machine learning pipeline that maximizes fraud capture rate (**Recall**) while providing local feature explanations to help analysts investigate flagged transactions efficiently.
+---
 
 ## Executive Summary
-This project cleans raw transactional data, addresses class imbalance via cost-sensitive learning (class_weight='balanced'), and trains a scikit-learn pipeline capable of catching 89.0% of all fraudulent events while maintaining an Average Precision (PR-AUC) score of 0.677. 
+This project processes raw payment data and applies an automated risk model specifically tuned to detect rare threat patterns. It successfully catches 89% of all fraudulent transactions while keeping false alarms low, protecting revenue without causing unnecessary friction for legitimate customers.
+
+---
 
 ## Dataset Profile & Exploratory Analysis
 The dataset originates from the European cardholder transaction benchmark dataset (mlg-ulb/creditcardfraud).
@@ -33,11 +41,14 @@ The dataset originates from the European cardholder transaction benchmark datase
 
 * **Fraudulent Transactions (Class 1):** 492 (0.173%) ➔ 473 (0.167%)
 
+---
 
 ## Financial Metrics
 * **Legitimate Median Amount:** $22.00
 
 * **Fraudulent Median Amount:** $9.25
+
+---
 
 ## Modeling Methodology
 Raw Input Data ➔ Deduplication ➔ Stratified Train/Test Split (75/25) ➔ StandardScaler ➔ Balanced Logistic Regression
@@ -52,37 +63,31 @@ Raw Input Data ➔ Deduplication ➔ Stratified Train/Test Split (75/25) ➔ Sta
  * **Feature Scaling:** StandardScaler applied to normalize feature magnitudes (Time, V1–V28, Amount).
  * **Algorithm:** LogisticRegression with class_weight='balanced' to weight positive fraud instances heavily during gradient optimization.
 
-## Performance & Evaluation
-### Key Metrics (at Default 0.5 Decision Threshold)
-* **Recall (Sensitivity): 89.0% — Caught 105 out of 118 fraud cases in the test set.
+---
 
-* **Average Precision (PR-AUC):** 0.677 — Summary measure across all operational decision thresholds.
+## 🚀 Key Performance & Metrics
 
-* **Precision:** 5.5% — Share of flagged transactions that were actual fraud.
+Using cost-sensitive learning (`class_weight='balanced'`), the model was evaluated on **70,932 unseen test transactions** (118 fraud cases):
 
-* **False Positives:** 1,806 — Legitimate transactions flagged for review.
-
-## Classification Report
-precision    recall  f1-score   support
-
-  Legitimate       1.00      0.97      0.99     70814
-       Fraud       0.05      0.89      0.10       118
-
-    accuracy                           0.97     70932
-   macro avg       0.53      0.93      0.55     70932
-weighted avg       1.00      0.97      0.99     70932
-
-## Deployment Artifact & Web Interface
-The trained pipeline is deployed via an interactive Streamlit web interface (app.py), enabling both manual transaction risk assessment and batch CSV processing with local feature contribution explanations.
-
- * **Saved Model Path:** models/fraud_model.joblib
-
- * **Expected Input Vector:** 30 numerical features ordered as ['Time', 'V1', 'V2', ..., 'V28', 'Amount'].
-
+| Metric | Score / Value | Description |
+| :--- | :--- | :--- |
+| **Recall (Sensitivity)** | **89.0%** | Caught **105 out of 118** actual fraud cases in test set |
+| **PR-AUC (Avg Precision)** | **0.677** | Summary measure across all operational decision thresholds |
+| **Accuracy** | **97.0%** | Overall correct predictions across both classes |
+| **False Positives** | **1,806** | Legitimate transactions flagged for analyst review |
 
 ---
 
-## Repository Structure
+## 🛠️ Pipeline & Web App Features
+
+* **Real-time Single Scoring:** Enter 30 PCA features (`Time`, `V1`–`V28`, `Amount`) or load pre-configured test presets.
+* **Local Feature Contributions:** Displays top features driving risk **UP** (drivers) or **DOWN** (reducers) for individual transactions.
+* **Batch CSV Scoring:** Upload multi-row transaction files, view summary metrics, and download scored results with fraud probabilities.
+* **Dual Path Resolution:** Robust relative path handling ensures seamless deployment on local machines and Streamlit Cloud.
+
+---
+
+## 📁 Repository Structure
 
 ```text
 Credit_Card_Fraud_Detection/
