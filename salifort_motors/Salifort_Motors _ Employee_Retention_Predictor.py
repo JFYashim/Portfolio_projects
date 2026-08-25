@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.title("🚗 Salifort Motors: Employee Retention Analytics & Churn Predictor")
 st.markdown("""
-This application uses a Random Forest Machine Learning model to evaluate employee retention risk 
+This application uses a Random Forest Machine Learning model developed by Jonathan Felix Yashim, to evaluate employee retention risk 
 and identify key drivers of turnover within Salifort Motors.
 """)
 
@@ -116,4 +116,4 @@ with col2:
     if number_project == 2 and monthly_hours < 150:
         st.write("🔵 **Underutilization:** Low engagement risk (2 projects, <150 hrs).")
     if monthly_hours <= 240 and number_project < 6 and not (tenure == 4 and promotion == 0):
-        st.write("🟢 No immediate PACE risk flags triggered for this profile.")
+        st.write("🟢 No immediate risk flags triggered for this profile.")
