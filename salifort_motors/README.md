@@ -12,9 +12,10 @@ An end-to-end machine learning project utilizing the **PACE framework (Plan, Ana
 ---
 
 ## 📸 Interactive Web App
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
 
-> **Live Demo:** Access the hosted application to interactively adjust employee metrics (monthly hours, project load, tenure) and compute immediate retention risk scores.
+[🚗 Employee Retention Predictor](https://employee-retention-predictor.streamlit.app/)
+
+**Live Demo:** Access the hosted application to interactively adjust employee metrics (monthly hours, project load, tenure) and compute immediate retention risk scores.
 
 ---
 
